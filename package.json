@@ -1,0 +1,16 @@
+{
+    "name": "tailwindcss",
+    "version": "1.0.0",
+    "main": "tailwind.config.js",
+    "scripts": {
+
+        "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+    },
+    "keywords": [],
+    "author": "Ariyan Shihab",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "tailwindcss": "^3.0.24"
+    }
+}

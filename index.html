@@ -5,12 +5,201 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <!-- coustom css -->
     <link rel="stylesheet" href="./output/tailwind.css" />
+    <!-- <link rel="stylesheet" href="./personal.css"> -->
     <title>TailwindCSS Boilerplate</title>
+
+
 </head>
 
-<body>
-    <!-- NOTE: THIS BOILERPLATE IS ONLY FOR  THE (3,0,24) VERSION OF tailwindCSS  -->
+<body class="font-Poppins bg-indigo-100 dark:bg-slate-800">
+
+    <div class="head    bg-blue-600 dark:bg-slate-700  py-4 sticky top-0 z-10  ">
+        <div class="wrapper flex justify-between  w-3/4 mx-auto">
+            <div class="logo text-white font-bold  text-2xl">Ariyan</div>
+
+            <div class="switch  text-white text-2xl flex justify-center gap-4 basis-3 ">
+                <i id="light" class="fas fa-sun cursor-pointer   "></i>
+                <i id="dark" class="fas fa-moon    cursor-pointer "></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="intro text-center my-8 ">
+        <h2 class=" text-textColor dark:text-contentBg font-bold text-4xl">Hello EveryOne. This an price table</h2>
+    </div>
+    <div class="mothYear mx-auto w-3/4 flex justify-center gap-3  ">
+        <button id="month" class="bg-textColor dark:bg-slate-900 text-contentBg p-3 rounded m-2">Monthly</button>
+        <button id="year" class="bg-white dark:bg-slate-900 dark:text-contentBg shadow text-textColor p-3 rounded m-2">Yearly</button>
+
+
+    </div>
+
+
+    <div class="wrapper flex items-center justify-center min-h-screen mt-7 ">
+        <div class="mainContant w-11/12 lg:w-3/4 md:w-5/6 mx-auto flex gap-x-6 gap-y-6 justify-between flex-col lg:flex-row md:flex-col p-2 lg:p-4 rounded-lg ">
+            <!-- card 1 -->
+            <div class="card p-4 rounded-md bg-white dark:bg-slate-900 pl-3 ">
+                <h1 class="font-bold text-textColor dark:text-contentBg text-4xl my-3 ">Intro</h1>
+                <h1 id="changable" class="   border-b-2 border-textColor dark:border-indigo-200 border-solid pb-2 text-4xl my-6 mx-3 font-bold text-textColor dark:text-contentBg ">99/<span class=" month font-normal text-lg ">$ Per Month</span></h1>
+                <ul class="ml-4 ">
+                    <li class="flex text-textColor dark:text-indigo-200 my-2 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex text-textColor dark:text-indigo-200 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+
+                    <li class="flex my-2 text-textColor dark:text-indigo-200 opacity-60 ">
+                        <i class="fas fa-times-circle mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 text-textColor dark:text-indigo-200 opacity-60 ">
+                        <i class="fas fa-times-circle mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 text-textColor dark:text-indigo-200 opacity-60 ">
+                        <i class="fas fa-times-circle mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                </ul>
+                <div class="text-center my-4 ">
+                    <a href="# " class="text-center rounded-3xl px-3 py-2 bg-textColor dark:bg-slate-700 text-white font-bold ">
+                    Explore More</a
+
+                </div>
+            </div>
+        </div>
+            <!-- card 2 -->
+            <div class="card p-4 rounded-md text-white bg-textColor dark:bg-slate-600 ">
+                <h1 class="font-bold text-4xl my-3 ">Mid Label</h1>
+                <h1 id="changable2" class="  border-b-2 border-white border-solid pb-2 text-4xl my-6 mx-3 font-bold text-white ">179/<span class=" month font-normal text-lg ">$ Per Month</span></h1>
+
+                <ul class="ml-4 ">
+                    <li class="flex my-2 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+
+                    <li class="flex my-2 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 opacity-60 ">
+                        <i class="fas fa-times-circle mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                </ul>
+                <div class="text-center my-4 ">
+                    <a href="# " class="text-center rounded-3xl px-3 py-2 bg-white text-textColor font-bold ">
+                    Explore More</a
+                </div>
+            </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card p-4 bg-white dark:bg-slate-900 rounded-md ">
+                
+                <h1 class="font-bold text-textColor dark:text-contentBg text-4xl my-3 ">Expart</h1>
+                <h1 id="changable3" class="  border-b-2 border-textColor dark:border-contentBg border-solid pb-2 text-4xl my-6 mx-3 font-bold text-textColor dark:text-contentBg ">299/<span class=" month font-normal text-lg ">$ Per Month</span></h1>
+
+                <ul class="ml-4 ">
+                    <li class="flex text-textColor dark:text-contentBg my-2 ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex text-textColor dark:text-contentBg ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+
+                    <li class="flex my-2 text-textColor dark:text-contentBg ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 text-textColor dark:text-contentBg ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                    <li class="flex my-2 text-textColor dark:text-contentBg ">
+                        <i class="fas fa-check mr-3 "></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, debitis.
+                        </p>
+                    </li>
+                </ul>
+                <div class="text-center my-4 ">
+                    <a href="# " class="text-center rounded-3xl px-3 py-2 bg-textColor text-white font-bold dark:bg-slate-800 ">
+                        Explore More</a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class=" bg-blue-600 dark:bg-slate-900 shadow py-3">
+        <div class="wrapper w-3/4 mx-auto">
+            <div class="flex justify-center gap-2 ">
+                <div class="flex ">
+                    <a href="https://github.com/AriyanShihab">
+                        <i class="fab fa-github   m-3  text-2xl  text-white dark:text-contentBg"></i> </a>
+
+                    <a href="https://www.linkedin.com/in/ariyanshihab/">
+                        <i class="fab fa-linkedin  m-3  text-2xl text-white dark:text-contentBg  "></i> </a>
+                </div>
+                <code class="mt-3 dark:text-contentBg">an Learnig/Practice UI by Ariyan</code>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./app.js "></script>
+
+
 </body>
 
 </html>
